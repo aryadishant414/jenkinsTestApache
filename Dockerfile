@@ -1,4 +1,4 @@
 FROM httpd
-COPY . /meriweb
+COPY jenkinsTestApache /meriweb
 WORKDIR /meriweb/jenkinsTestApache/
 RUN cat index.html > /var/www/html/index.html
